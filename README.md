@@ -3,8 +3,8 @@
 ```Bash
 git clone <url>
 cd dowAu
-cargo run --release -- "url плейлиста или же песни" "путь куда устанавливать" // тут еще надо было по идее указать формат
-// но не советую, ибо придется скачивать ffmpeg, а я лично его скачивать не хотел.
+cargo run --release -- "url song or playlist"
+// 
 ```
 In general, you don't really need to specify the format in which the installation will take place. In this case, everything will be installed in the webm format, which is kind of universal.
 
