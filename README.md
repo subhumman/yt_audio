@@ -1,15 +1,12 @@
-## Короче говоря, примитивная cli утилита - обертка над yt-dlp
-### Установка и запуск
+## In short, a primitive CLI utility - a wrapper over yt-dlp
+### Installation and launch
 ```Bash
 git clone <url>
 cd dowAu
 cargo run --release -- "url плейлиста или же песни" "путь куда устанавливать" // тут еще надо было по идее указать формат
 // но не советую, ибо придется скачивать ffmpeg, а я лично его скачивать не хотел.
 ```
-В целом то можно и не указывать расширение, в котором будет происходить установка. В этом случае все будет устанавливаться 
-в формате webm а он является как бы универсальным
+In general, you don't really need to specify the format in which the installation will take place. In this case, everything will be installed in the webm format, which is kind of universal.
 
-### причины такой топорности
-Писал для себя чисто чтоб скачивать треки ТЕМНЫЙ ПРИНЦ. Мне не нужено удобство, мне нужен быстрый результат. Как то так
-
-## ТЕМНЫЙ ПРИНЦ
+### reasons for such bluntness
+I wrote it purely for myself to download tracks DARK PRINCE. I don't need convenience, I need a quick result. Something like that
